@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E85CA55-6532-40F1-8576-DF00C661FE47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0FD366D-AEB5-4815-8828-FDC56A029876}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TaseCase.Ef7", "src\TaseCase.Ef7\TaseCase.Ef7.xproj", "{09CB0214-9FD7-4329-B74F-B981127277E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09CB0214-9FD7-4329-B74F-B981127277E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CB0214-9FD7-4329-B74F-B981127277E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CB0214-9FD7-4329-B74F-B981127277E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CB0214-9FD7-4329-B74F-B981127277E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09CB0214-9FD7-4329-B74F-B981127277E2} = {3E85CA55-6532-40F1-8576-DF00C661FE47}
+	EndGlobalSection
+EndGlobal
